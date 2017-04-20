@@ -56,17 +56,17 @@
          <outputDirectory>lib</outputDirectory>
          <outputFileNameMapping>${artifact.artifactId}.${artifact.extension}</outputFileNameMapping>
          <includes>
-            <include>org.gatein.wsrp:test-framework</include>
+            <include>org.exoplatform.addons.wsrp:test-framework</include>
 
-            <include>org.gatein.wci:wci-jboss7</include>
-            <include>org.gatein.wci:wci-wci</include>
+            <include>org.exoplatform.gatein.wci:wci-jboss7</include>
+            <include>org.exoplatform.gatein.wci:wci-wci</include>
 
-            <include>org.gatein.pc:pc-portlet</include>
-            <include>org.gatein.pc:pc-api</include>
+            <include>org.exoplatform.gatein.pc:pc-portlet</include>
+            <include>org.exoplatform.gatein.pc:pc-api</include>
             <include>javax.portlet:portlet-api</include>
 
-            <include>org.gatein.pc:pc-controller</include>
-            <include>org.gatein.pc:pc-test-core</include>
+            <include>org.exoplatform.gatein.pc:pc-controller</include>
+            <include>org.exoplatform.gatein.pc:pc-test-core</include>
             <include>org.staxnav:staxnav.core</include>
 
             <include>org.gatein.common:common-common</include>
@@ -74,11 +74,11 @@
 
             <include>javax.ccpp:ccpp</include>
 
-            <include>org.gatein.wsrp:wsrp-common</include>
-            <include>org.gatein.wsrp:wsrp-integration-api</include>
-            <include>org.gatein.wsrp:wsrp-producer-lib</include>
-            <include>org.gatein.wsrp:wsrp-wsrp1-ws</include>
-            <include>org.gatein.wsrp:wsrp-wsrp2-ws</include>
+            <include>org.exoplatform.addons.wsrp:wsrp-common</include>
+            <include>org.exoplatform.addons.wsrp:wsrp-integration-api</include>
+            <include>org.exoplatform.addons.wsrp:wsrp-producer-lib</include>
+            <include>org.exoplatform.addons.wsrp:wsrp-wsrp1-ws</include>
+            <include>org.exoplatform.addons.wsrp:wsrp-wsrp2-ws</include>
 
             <include>junit:junit</include>
             <include>commons-fileupload:commons-fileupload</include>

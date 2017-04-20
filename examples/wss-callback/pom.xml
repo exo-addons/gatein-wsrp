@@ -2,8 +2,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <parent>
     <artifactId>wsrp-examples</artifactId>
-    <groupId>org.gatein.wsrp</groupId>
-    <version>2.3.5.Final-SNAPSHOT</version>
+    <groupId>org.exoplatform.addons.wsrp</groupId>
+    <version>1.0.x-SNAPSHOT</version>
+
   </parent>
   <modelVersion>4.0.0</modelVersion>
 
@@ -16,10 +17,16 @@
       <version>${wss4j.version}</version>
     </dependency>
     <dependency>
-      <groupId>org.gatein.wsrp</groupId>
+      <groupId>org.exoplatform.addons.wsrp</groupId>
       <artifactId>wsrp-wss-jboss7</artifactId>
       <version>${project.version}</version>
     </dependency>
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>javax.servlet-api</artifactId>
+      <scope>provided</scope>
+    </dependency>
+
   </dependencies>
 
 
